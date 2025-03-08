@@ -4,21 +4,20 @@ layout: home
 
 hero:
   name: "ROneBot 开发文档!"
-  text: ""
   tagline: Powered By RTAkland
   actions:
     - theme: brand
-      text: Wiki
-      link: /docs/
+      text: OneBot11
+      link: docs/onebot11/Home
     - theme: alt
-      text: Github
-      link: https://github.com/RTAkland/ROneBot
+      text: QQ官方机器人
+      link: docs/qqbot-webhook/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 全异步
+    details: ROB将所有的消息都作为异步执行
+  - title: 函数式编程支持
+    details: 支持使用函数式的方式创建命令、创建命令会话、监听事件等
+  - title: 更具Kotlin风格
+    details: 框架转为Kotlin设计, 添加了DSL的语法更贴近于Kotlin使用者的习惯
 ---

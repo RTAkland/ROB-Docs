@@ -5,7 +5,7 @@ export default defineConfig({
     lang: "zh-CN",
     title: "ROneBot 开发文档!",
     themeConfig: {
-        logo:"/logo-icon.svg",
+        logo: "https://static.rtast.cn/static/rob-logo-light.svg",
         nav: [
             {
                 text: "RTAkland",
