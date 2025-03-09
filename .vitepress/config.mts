@@ -2,10 +2,20 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
-    lang: "zh-CN",
     title: "ROneBot 开发文档!",
     themeConfig: {
-        logo: "https://static.rtast.cn/static/rob-logo-light.svg",
+        siteTitle:"ROB开发文档",
+        footer: {
+            message: "以Apache-2.0开源协议开源",
+            copyright: "Copyright © 2024-present"
+        },
+        search: {
+            provider: "local"
+        },
+        logo: {
+            light: "https://static.rtast.cn/static/rob-logo-light.svg",
+            dark: "https://static.rtast.cn/static/logo-icon.svg"
+        },
         nav: [
             {
                 text: "RTAkland",
