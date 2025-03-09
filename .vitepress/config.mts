@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "ROneBot 开发文档!",
     themeConfig: {
-        siteTitle:"ROB开发文档",
+        siteTitle: "ROB开发文档",
         footer: {
             message: "以Apache-2.0开源协议开源",
             copyright: "Copyright © 2024-present"
@@ -41,6 +41,10 @@ export default defineConfig({
                     {text: "命令拦截器", link: "/docs/onebot11/命令拦截器"},
                     {text: "管理Bot实例", link: "/docs/onebot11/管理Bot实例"}
                 ]
+            },
+            {
+                text: "权限控制",
+                link: "/docs/permission/permission"
             },
             {
                 text: "Kook Webhook URL验证器",
