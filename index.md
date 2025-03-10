@@ -46,14 +46,16 @@ const members = [
     title: '作者',
     links: [
       { icon: 'github', link: 'https://github.com/RTAkland' },
+      { icon: 'wordpress', link: 'https://blog.rtast.cn' }
     ]
   },
   {
     avatar: 'https://avatars.githubusercontent.com/u/60739208',
     name: 'xiaoman1221',
-    title: '精神支持',
+    title: '精神支持 | 人生导师',
     links: [
       { icon: 'github', link: 'https://github.com/xiaoman1221' },
+      { icon: 'wordpress', link: 'https://www.manjiuqi.com/' }
     ]
   }
 ]

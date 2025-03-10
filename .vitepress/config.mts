@@ -2,6 +2,7 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
+    lastUpdated: true,
     title: "ROneBot 开发文档!",
     themeConfig: {
         siteTitle: "ROB开发文档",
