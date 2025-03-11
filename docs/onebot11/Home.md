@@ -9,6 +9,8 @@
 
 # 快速开始
 
+模板项目生成器: [https://rob-starter.rtast.cn/](https://rob-starter.rtast.cn/)
+
 ## 添加Maven仓库
 
 ```kotlin
