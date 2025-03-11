@@ -40,10 +40,6 @@ fun main() {
 }
 ```
 
-# API文档
-
-[APIWiki](https://rob-api.rtast.cn/)
-
 # 加入交流群
 
 [点击这里加群](https://qm.qq.com/q/KrmU7AjzuC)
