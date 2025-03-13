@@ -67,10 +67,6 @@ export default defineConfig({
             {
                 text: "字符串格式化工具",
                 link: "/docs/string-format/index"
-            },
-            {
-                text: "Satori",
-                link: "/docs/satori/index"
             }
         ]
     }
