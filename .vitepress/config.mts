@@ -49,18 +49,6 @@ export default defineConfig({
                 link: "/docs/permission/permission"
             },
             {
-                text: "Kook Webhook URL验证器",
-                link: "/docs/kook-webhook-url-validator/index"
-            },
-            {
-                text: "Kook Webhook",
-                link: "/docs/kook-webhook/index"
-            },
-            {
-                text: "Kook Websocket",
-                link: "/docs/kook-websocket/index"
-            },
-            {
                 text: "QQ官方SDK",
                 link: "/docs/qqbot-webhook/index"
             },

@@ -9,15 +9,9 @@ hero:
     - theme: brand
       text: OneBot11
       link: docs/onebot11/Home
-    - theme: brand
+    - theme: alt
       text: QQ官方机器人
       link: docs/qqbot-webhook/index
-    - theme: alt
-      text: Kook-Websocket
-      link: docs/kook-websocket/index
-    - theme: alt
-      text: Kook-Webhook
-      link: docs/kook-webhook/index
 
 features:
   - title: 全异步
