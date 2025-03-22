@@ -24,23 +24,3 @@ dependencies {
 # 在继承实现的命令中使用
 
 > 你只需要使用hasPermission这个多个类型的重载函数然后判断返回值就能判断是否有权限了
-
-# 在Brigadier中使用
-
-```kotlin
-suspend fun main() {
-    OneBotFactory.brigadierCommandManager.register(
-        Commands.literal("main")
-//            .requires { it.hasPermission(BasicPermission.Admin) }
-//            .requires { it.hasPermission("command.test.main") }
-            .requires { it.hasPermission(114514) }
-            .then(
-                Commands.argument("test", CharArgumentType.char())
-                    .executes {
-                        println(it.getChar("test"))
-                        Command.SINGLE_SUCCESS
-                    }
-            ), listOf("main1", "1111")
-    )
-}
-```
