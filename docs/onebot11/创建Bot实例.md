@@ -23,6 +23,8 @@ suspend fun main() {
 }
 ```
 
+> 如果你的onebot实现被套上了SSL, 那么你只能在JVM平台来连接, native平台不支持ssl的websocket
+
 # 创建服务端
 
 ```kotlin

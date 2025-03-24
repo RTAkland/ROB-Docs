@@ -4,8 +4,8 @@
 
 1. ROB不是一个OneBot实现, 他的作用是连接到OneBot实现, 然后处理OneBot实现下发的消息。
 2. ROB深度依赖于`Kotlinx.Coroutines`(Kotlin协程)所以只能在Kotlin中使用, 不能在Java中使用。
-3. ROB是一个JVM平台的SDK不是KMP平台的SDK
-4. ROB所需的最低JDK版本为`11`
+3. ROB在`v2.8.2`及以前的版本为纯Jvm库, 在`v2.9.0`及以上为KMP库, 支持`Windows(MinGW)`、`Linux(x64)`、`Jvm`。
+4. Jvm ROB所需的最低JDK版本为`11`
 
 # 快速开始
 
@@ -21,6 +21,8 @@ repositories {
 
 ## 添加依赖
 
+### 旧版纯Jvm平台
+
 ```kotlin
 dependencies {
     // 这里的版本替换成最新版本
@@ -28,10 +30,46 @@ dependencies {
 }
 ```
 
+### 新版KMP平台
+
+
+```kotlin
+dependencies {
+    // 这里的版本替换成最新版本
+    implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
+}
+```
+
+或者支持其他平台
+
+```kotlin
+kotlin {
+    linuxX64 {
+        binaries.executable {
+            entryPoint = "com.example.rob.examplerobproject.main"
+        }
+    }
+    mingwX64 {
+        binaries.executable {
+            entryPoint = "com.example.rob.examplerobproject.main"
+        }
+    }
+    jvm()
+
+    sourceSets {
+        commonMain {
+            dependencies {
+                implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
+            }
+        }
+    }
+}
+```
+
 # 最小实例
 
 ```kotlin
-fun main() {
+suspend fun main() {
     OneBotFactory.createClient("ws://127.0.0.1:6666", "1145141919810", object : OneBotListener {
         override suspend fun onGroupMessage(message: GroupMessage, json: String) {
             println(message.rawMessage)
@@ -39,6 +77,8 @@ fun main() {
     })
 }
 ```
+
+> 注意: 在native平台上是没有办法将main函数作为挂起函数, 所以你需要手动创建一个协程作用域来创建客户端和服务端
 
 # 加入交流群
 

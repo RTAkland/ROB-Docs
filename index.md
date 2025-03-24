@@ -16,8 +16,8 @@ hero:
 features:
   - title: 全异步
     details: ROB将所有的消息、事件、指令都作为异步执行不会阻塞其他指令或者事件的进行
-  - title: 函数式编程支持
-    details: 支持使用函数式的方式创建命令、创建命令会话、监听事件等
+  - title: KMP支持
+    details: 支持Kotlin Multiplatform可以将机器人编译成Windows、Linux、Jvm可以执行文件
   - title: 更具Kotlin风格
     details: 框架专为Kotlin设计, 添加了DSL的语法更贴近于Kotlin使用者的习惯
 ---
