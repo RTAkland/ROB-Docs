@@ -4,7 +4,8 @@
 
 1. ROB不是一个OneBot实现, 他的作用是连接到OneBot实现, 然后处理OneBot实现下发的消息。
 2. ROB深度依赖于`Kotlinx.Coroutines`(Kotlin协程)所以只能在Kotlin中使用, 不能在Java中使用。
-3. ROB在`v2.8.2`及以前的版本为纯Jvm库, 在`v2.9.0`及以上为KMP库, 支持`Windows(MinGWX64)`、`Linux(x64)`、`Jvm`。
+3. ROB在`v2.8.2`及以前的版本为纯Jvm库, 在`v2.9.0`及以上为KMP库, 支持`Windows(MinGWX64)`、`Linux(x64,armX64)`、
+   `MacOs(X64, ArmX64)`、`Jvm`。
 4. Jvm ROB所需的最低JDK版本为`11`
 
 # 快速开始
@@ -31,7 +32,6 @@ dependencies {
 ```
 
 ### 新版KMP平台
-
 
 ```kotlin
 dependencies {
@@ -79,6 +79,7 @@ suspend fun main() {
 ```
 
 > 注意: 在native平台上是没有办法将main函数作为挂起函数, 所以你需要手动创建一个协程作用域来创建客户端和服务端
+> 例如使用`GlobalScope.launch {}`函数来创建一个协程作用域
 
 # 加入交流群
 
