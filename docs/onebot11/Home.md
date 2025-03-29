@@ -16,7 +16,11 @@
 
 ```kotlin
 repositories {
-    maven("https://repo.maven.rtast.cn/releases/")
+    // 在2.9.1及以下版本需要添加这个仓库, 2.9.2以上则只需要添加mavenCentral即可
+    // maven("https://repo.maven.rtast.cn/releases/")
+    
+    // 2.9.2以上
+    mavenCentral()
 }
 ```
 
