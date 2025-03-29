@@ -38,9 +38,13 @@ dependencies {
 ### 新版KMP平台
 
 ```kotlin
-dependencies {
-    // 这里的版本替换成最新版本
-    implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
+sourceSets {
+    commonMain {
+        dependencies {
+           // 这里的版本替换成最新版本
+           implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
+        }
+    }
 }
 ```
 
