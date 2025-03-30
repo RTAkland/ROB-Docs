@@ -1,11 +1,4 @@
-权限控制需要额外引入新的模块`ronebot-permission`
-
-```kotlin
-dependencies {
-    // 这里的版本替换成最新版本
-    implementation("cn.rtast:ronebot-permission:${version}")
-}
-```
+> Permission 模块已合并到common模块内, 所有平台不需要引入额外依赖即可使用
 # 设置权限
 
 > 权限以3中方式呈现, 分别是 `BasicPermission 枚举` `level(Int) 权限等级` `权限节点(String)`
