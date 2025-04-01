@@ -7,6 +7,7 @@
 3. ROB在`v2.8.2`及以前的版本为纯Jvm库, 在`v2.9.0`及以上为KMP库, 支持`Windows(MinGWX64)`、`Linux(x64,armX64)`、
    `MacOs(X64, ArmX64)`、`Jvm`。
 4. Jvm ROB所需的最低JDK版本为`11`
+5. `ronebot-onebot-v11`兼容全部的Lagrange.OneBot的API并且兼容部分的其他OneBot实现的API, 不保证可用性, 有bug可以提issue
 
 # 快速开始
 
