@@ -15,7 +15,7 @@ hero:
 
 features:
   - title: 轻量级
-    details: 由于是一个KMP库，所以不可避免地使用了纯Kotlin的库, 例如标准库、协程库、序列化库等, 最终编译出的jar为6mb左右，在Native平台经过Release发布的kexe大小只有5mb
+    details: 最终编译出的jar为6mb左右，在Native平台经过Release发布的kexe大小只有5mb
   - title: 模块化
     details: 所有核心功能之外的功能都被抽离成了单独的模块，需要手动引入依赖，这样保证了轻量化设计
   - title: 更具Kotlin风格
