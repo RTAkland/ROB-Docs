@@ -19,7 +19,7 @@ features:
   - title: 模块化
     details: 所有核心功能之外的功能都被抽离成了单独的模块，需要手动引入依赖，这样保证了轻量化设计
   - title: 多平台！
-    details: 除了支持Jvm平台之外还支持macX64(armX64)、linuxX64(armX64)、mingwX64, 在Native平台上所有的功能都是完整的, 仅仅少了一个无法在native平台上连接TLS的OneBot实现
+    details: 除了支持Jvm平台之外还支持macX64(armX64)、linuxX64(armX64)、mingwX64, 在Native平台上所有的功能都是完整的, 仅仅少了一个无法在native平台上连接TLS加密后的OneBot实现的功能
 ---
 
 ---
