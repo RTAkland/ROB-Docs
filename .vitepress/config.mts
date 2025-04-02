@@ -45,6 +45,10 @@ export default defineConfig({
                 ]
             },
             {
+                text: "OneBot11 Okio 支持",
+                link: "/docs/onebot11-okio/home"
+            },
+            {
                 text: "权限控制",
                 link: "/docs/permission/permission"
             },
