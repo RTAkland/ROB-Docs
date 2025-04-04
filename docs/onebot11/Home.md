@@ -17,10 +17,6 @@
 
 ```kotlin
 repositories {
-    // 在2.9.1及以下版本需要添加这个仓库, 2.9.2以上则只需要添加mavenCentral即可
-    // maven("https://repo.maven.rtast.cn/releases/")
-    
-    // 2.9.2以上
     mavenCentral()
 }
 ```
@@ -32,7 +28,7 @@ repositories {
 ```kotlin
 dependencies {
     // 这里的版本替换成最新版本
-    implementation("cn.rtast:ronebot-onebot-v11:${version}")
+    implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
 }
 ```
 
