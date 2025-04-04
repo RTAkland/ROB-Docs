@@ -45,20 +45,12 @@ export default defineConfig({
                 ]
             },
             {
-                text: "OneBot11 Okio 支持",
-                link: "/docs/onebot11-okio/home"
-            },
-            {
                 text: "权限控制",
                 link: "/docs/permission/permission"
             },
             {
                 text: "QQ官方SDK",
                 link: "/docs/qqbot-webhook/index"
-            },
-            {
-                text: "字符串格式化工具",
-                link: "/docs/string-format/index"
             }
         ]
     }
