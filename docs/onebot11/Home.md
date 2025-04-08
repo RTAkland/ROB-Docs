@@ -86,6 +86,10 @@ suspend fun main() {
 > 注意: 在native平台上是没有办法将main函数作为挂起函数, 所以你需要手动创建一个协程作用域来创建客户端和服务端
 > 例如使用`GlobalScope.launch {}`函数来创建一个协程作用域
 
+# Java使用者
+
+见 [Kotlin和Java的差异](/docs/onebot11/DifferenceBetweenKotlin)
+
 # 加入交流群
 
 [点击这里加群](https://qm.qq.com/q/KrmU7AjzuC)
