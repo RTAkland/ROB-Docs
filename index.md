@@ -17,7 +17,7 @@ features:
   - title: 轻量级
     details: 最终编译出的jar为6mb左右，在Native平台经过Release发布的kexe大小只有5mb
   - title: 多平台！
-    details: 除了支持Jvm平台之外还支持macX64(armX64)、linuxX64(armX64)、mingwX64, 在Native平台上所有的功能都是完整的, 仅仅少了一个无法在native平台上连接TLS加密后的OneBot实现的功能
+    details: 除了支持Jvm平台之外还支持macX64(armX64)、linuxX64(armX64)、mingwX64(Windows)
   - title: Java友好
     details: 框架支持使用Java进行调用, 但是还是会有一些差异, 具体的差异请到不同的平台的文档中查看
 ---
