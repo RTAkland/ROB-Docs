@@ -2,11 +2,6 @@
 
 # Java和Kotlin使用本框架之间的差异
 
-只要是暴露给Java的函数/属性都会加上`@JvmOnly`注解并且末尾会加上`Jvm`字样
-
-如果任何方法不是以`JvmAsync`或者`JvmBlocking`结尾的并且这个方法有`continuation`参数则表示这个函数是挂起函数,
-在Java中无法使用
-
 # 命令
 
 在Kotlin中你可以使用继承`BaseCommand`的方式来注册一个命令, 但是在Java中你只能使用
@@ -85,31 +80,22 @@ public class Test implements OneBotListener {
 下面是BaseMessage的成员属性
 
 ```kotlin
-@JvmOnly
 public fun getTexts(): List<String> = this.texts
 
-@JvmOnly
 public fun getText(): String = this.text
 
-@JvmOnly
 public fun getImages(): List<ImageSegment> = this.images
 
-@JvmOnly
 public fun getMFaces(): List<MFaceSegment> = this.mFaces
 
-@JvmOnly
 public fun getMFace(): MFaceSegment? = this.mFace
 
-@JvmOnly
 public fun getFaces(): List<FaceSegment> = this.faces
 
-@JvmOnly
 public fun filterJvm(type: SegmentType): List<ArrayMessage> = this.filter(type)
 
-@JvmOnly
 public fun filterAndSerializeJvm(type: SegmentType): List<MessageSegment> = this.filterAndSerialize(type)
 
-@JvmOnly
 public fun toPlainTextJvm(): String = this.text
 ```
 

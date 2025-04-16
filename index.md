@@ -15,7 +15,7 @@ hero:
 
 features:
   - title: 轻量级
-    details: 最终编译出的jar为6mb左右，在Native平台经过Release发布的kexe大小只有5mb
+    details: 一个空白的机器人APP大小在5mb~6mb左右(Linux除外, 在linux平台下编译出的kexe大小为15mb左右)
   - title: 多平台！
     details: 除了支持Jvm平台之外还支持macX64(armX64)、linuxX64(armX64)、mingwX64(Windows)
   - title: Java友好
