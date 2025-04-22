@@ -33,6 +33,8 @@ dependencies {
 }
 ```
 
+> 最新版本可以在 maven中央仓库找到 https://central.sonatype.com/artifact/cn.rtast.rob/ronebot-onebot-v11
+
 ### 新版KMP平台
 
 ```kotlin
