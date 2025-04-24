@@ -30,9 +30,8 @@ features:
 所有的模块都会遵循以下注意事项
 
 [1.] 全异步指的是OneBot实现下发消息会开启一个协程处理, 在这个消息生命周期内的所有事件在同一个线程上,
-例如本次下发的消息的事件和指令在同一个线程, OneBot实现再次下发消息在另外一个线程上  
-[2.] 由于深度依赖于Kotlin协程及Kotlin特有的特性所以本框架只能在Kotlin中使用  
-[3.] 没了.
+例如本次下发的消息的事件和指令在同一个线程, OneBot实现再次下发消息在另外一个线程
+[2.] 没了.
 
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme';
