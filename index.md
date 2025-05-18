@@ -3,12 +3,15 @@
 layout: home
 
 hero:
-  name: "ROneBot 开发文档!"
+  name: "ROneBot 开发文档"
   tagline: Powered By RTAkland
   actions:
     - theme: brand
       text: OneBot11
       link: docs/onebot11/Home
+    - theme: brand
+      text: Milky
+      link: docs/milky/Home
     - theme: alt
       text: QQ官方机器人
       link: docs/qqbot-webhook/index
