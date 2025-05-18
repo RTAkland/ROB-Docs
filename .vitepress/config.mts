@@ -46,6 +46,10 @@ export default defineConfig({
                 ]
             },
             {
+                text: "Milky",
+                link: "/docs/milky/Home"
+            },
+            {
                 text: "权限控制",
                 link: "/docs/permission/permission"
             },
