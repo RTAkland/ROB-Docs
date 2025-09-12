@@ -29,6 +29,19 @@ Github地址: https://github.com/RTAkland/KEmbeddableResources
 
 Github地址: https://github.com/RTAkland/KLogging
 
+## 更方便的cinterop
+
+> 在kotlin中使用cinterop需要使用def文件来定义`.h`c头文件和`.a`等动态/静态链接库文件，但是
+> 他们必须都是绝对路径，如果是系统内置、可以使用系统包管理器或手动安装到系统的库是适用的，如果是自己写的
+> c库，那必须将编译好的库文件和头文件放在git仓库内一并提交，这就导致了其他开发者必须修改路径才能使用，并且
+> 每次提交前都要将其改回来，于是我写了一个gradle插件: `kdef`。 这个插件可以使用相对路径来定义头文件和库文件
+> 每次def后重新运行一次任务同步一次即可
+
+Github地址: https://github.com/RTAkland/kdef
+
+使用文档: http://blog.rtast.cn/posts/2025-05/1/
+
+
 # 最后
 
 如果你有更多自己写的/别人写的库想要放在这里供其他人参考, 可以在[PR](https://github.com/RTAkland/ROB-Docs/pulls)中修改本文件
