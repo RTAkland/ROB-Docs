@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: QQ官方机器人
       link: docs/qqbot-webhook/index
+    - theme: alt
+      text: 杂项(一些有帮助的库)
+      link: docs/misc/misc
 
 features:
   - title: 轻量级
