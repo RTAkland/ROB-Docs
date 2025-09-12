@@ -6,7 +6,7 @@
 milky协议进行开发QQ机器人并且支持Kotlin Multiplatform(多平台), 可以将机器人编译成
 原生二进制文件以获得更好的性能。
 
-> ROB为Kotlin开发者提供了更丰富和函数
+> ROB为Kotlin开发者提供了更丰富和函数，推荐100% Kotlin语言进行开发机器人
 
 # 快速浏览
 

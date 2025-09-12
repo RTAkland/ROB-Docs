@@ -47,15 +47,14 @@ export default defineConfig({
             },
             {
                 text: "Milky",
-                link: "/docs/milky/Home"
-            },
-            {
-                text: "权限控制",
-                link: "/docs/permission/permission"
-            },
-            {
-                text: "QQ官方SDK",
-                link: "/docs/qqbot-webhook/index"
+                items: [
+                    {text: "Milky首页", link: "/docs/milky/Home"},
+                    {text: "创建Bot实例", link: "/docs/milky/创建Bot实例"},
+                    {text: "监听事件", link: "/docs/milky/监听事件"},
+                    {text: "处理/构造/发送消息", link: "/docs/milky/处理消息构造消息和发送消息"},
+                    {text: "创建命令", link: "/docs/milky/创建命令"},
+                    {text: "后台任务调度器", link: "/docs/milky/任务调度器"},
+                ]
             }
         ]
     }

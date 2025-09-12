@@ -13,9 +13,6 @@ hero:
       text: Milky
       link: docs/milky/Home
     - theme: alt
-      text: QQ官方机器人
-      link: docs/qqbot-webhook/index
-    - theme: alt
       text: 杂项(一些有帮助的库)
       link: docs/misc/misc
 
@@ -23,7 +20,7 @@ features:
   - title: 轻量级
     details: 一个空白的机器人APP大小在5mb~6mb左右(Linux除外, 在linux平台下编译出的kexe大小为15mb左右)
   - title: 多平台！
-    details: 除了支持Jvm平台之外还支持macX64(armX64)、linuxX64(armX64)、mingwX64(Windows)
+    details: 除了支持Jvm平台之外还支持MacOSArm64、linuxX64(armX64)、mingwX64(Windows) (由于Kotlin在2.2.20版本放弃了对Apple X64平台的支持故不支持MacOSX64平台的测试和运行)
   - title: Java友好
     details: 框架支持使用Java进行调用, 但是还是会有一些差异, 具体的差异请到不同的平台的文档中查看
 ---
@@ -64,6 +61,27 @@ const members = [
 ]
 </script>
 
-## 开发者们
+## 主要开发者们
 
 <VPTeamMembers size="small" :members="members"></VPTeamMembers>
+
+## 贡献者们
+
+> 排名不分前后, 非实时更新
+
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/kukume">
+        <img src="https://avatars.githubusercontent.com/u/45278810?v=4" width="80" style="border-radius:50%"><br/>
+        <sub><b>kukume</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/NekoCurit">
+        <img src="https://avatars.githubusercontent.com/u/108512490?v=4" width="80" style="border-radius:50%"><br/>
+        <sub><b>NekoCurit</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
