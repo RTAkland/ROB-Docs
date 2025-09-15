@@ -28,6 +28,18 @@ export default defineConfig({
         ],
         sidebar: [
             {
+                text: "Milky",
+                items: [
+                    {text: "Milky首页", link: "/docs/milky/Home"},
+                    {text: "创建Bot实例", link: "/docs/milky/创建Bot实例"},
+                    {text: "监听事件", link: "/docs/milky/监听事件"},
+                    {text: "调用API", link: "/docs/milky/调用API"},
+                    {text: "处理/构造/发送消息", link: "/docs/milky/处理消息构造消息和发送消息"},
+                    {text: "创建命令", link: "/docs/milky/创建命令"},
+                    {text: "后台任务调度器", link: "/docs/milky/任务调度器"},
+                ]
+            },
+            {
                 text: "OneBot11",
                 items: [
                     {text: "快速开始", link: "/docs/onebot11/Home"},
@@ -43,17 +55,6 @@ export default defineConfig({
                     {text: "任务调度器", link: "/docs/onebot11/任务调度器Scheduler"},
                     {text: "命令拦截器", link: "/docs/onebot11/命令拦截器"},
                     {text: "Java用户", link: "/docs/onebot11/DifferenceBetweenKotlin"}
-                ]
-            },
-            {
-                text: "Milky",
-                items: [
-                    {text: "Milky首页", link: "/docs/milky/Home"},
-                    {text: "创建Bot实例", link: "/docs/milky/创建Bot实例"},
-                    {text: "监听事件", link: "/docs/milky/监听事件"},
-                    {text: "处理/构造/发送消息", link: "/docs/milky/处理消息构造消息和发送消息"},
-                    {text: "创建命令", link: "/docs/milky/创建命令"},
-                    {text: "后台任务调度器", link: "/docs/milky/任务调度器"},
                 ]
             }
         ]
