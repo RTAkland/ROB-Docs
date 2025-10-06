@@ -110,3 +110,9 @@ public class CreateCommand {
 ```
 
 > 除此之外还有更多快捷、实用以及高效的接口和函数, 后面的页面都是以Kotlin语言来作为示例(除一些Java特有的函数外会给出Java代码示例)
+
+# 加入交流群
+
+[点击这里加群](https://qm.qq.com/q/KrmU7AjzuC)
+
+<img src="https://github.com/user-attachments/assets/eabd622e-f38d-4541-9e27-7d9623a97805" width="200">
