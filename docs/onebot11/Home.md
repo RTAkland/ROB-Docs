@@ -10,7 +10,14 @@
 
 # 快速开始
 
-模板项目生成器: [https://rob-starter.rtast.cn/](https://rob-starter.rtast.cn/)
+> 如果你的Bot用到了`任何`Kotlin native平台, 请把下面的内容添加到你的`gradle.properties`中
+
+```properties
+# gradle.properties
+org.gradle.jvmargs=-Xmx2g -XX:MaxMetaspaceSize=1g -Dfile.encoding=UTF-8
+```
+
+> 由于链接Kotlin native需要大量的内存, 你需要额外配置更多的堆内存让gradle成功链接出最终的二进制产物
 
 ## 添加Maven仓库
 
@@ -22,19 +29,6 @@ repositories {
 ```
 
 ## 添加依赖
-
-### 旧版纯Jvm平台
-
-```kotlin
-dependencies {
-    // 这里的版本替换成最新版本
-    implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
-}
-```
-
-> 最新版本可以在 maven中央仓库找到 https://central.sonatype.com/artifact/cn.rtast.rob/ronebot-onebot-v11
-
-### 新版KMP平台
 
 ```kotlin
 sourceSets {

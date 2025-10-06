@@ -10,6 +10,15 @@ milky协议进行开发QQ机器人并且支持Kotlin Multiplatform(多平台), �
 
 # 快速浏览
 
+> 如果你的Bot用到了`任何`Kotlin native平台, 请把下面的内容添加到你的`gradle.properties`中
+
+```properties
+# gradle.properties
+org.gradle.jvmargs=-Xmx2g -XX:MaxMetaspaceSize=1g -Dfile.encoding=UTF-8
+```
+
+> 由于链接Kotlin native需要大量的内存, 你需要额外配置更多的堆内存让gradle成功链接出最终的二进制产物
+
 > 下面是一些简单的示例, 同时提供Kotlin和Java版本
 
 ## 创建Bot
