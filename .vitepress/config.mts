@@ -54,6 +54,7 @@ export default defineConfig({
                     {text: "权限控制", link: "/docs/onebot11/权限控制"},
                     {text: "任务调度器", link: "/docs/onebot11/任务调度器Scheduler"},
                     {text: "命令拦截器", link: "/docs/onebot11/命令拦截器"},
+                    {text: "StreamAPI", link: "/docs/onebot11/StreamAPI"},
                     {text: "Java用户", link: "/docs/onebot11/DifferenceBetweenKotlin"}
                 ]
             }
