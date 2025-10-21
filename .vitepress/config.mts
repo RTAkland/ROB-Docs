@@ -37,6 +37,7 @@ export default defineConfig({
                     {text: "处理/构造/发送消息", link: "/docs/milky/处理消息构造消息和发送消息"},
                     {text: "创建命令", link: "/docs/milky/创建命令"},
                     {text: "后台任务调度器", link: "/docs/milky/任务调度器"},
+                    {text: "事件注册表", link: "/docs/milky/事件注册表"},
                 ]
             },
             {
