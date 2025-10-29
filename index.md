@@ -52,7 +52,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/60739208',
     name: 'xiaoman1221',
-    title: '人生导师',
+    title: '人生导师 + 作者大爹',
     links: [
       { icon: 'github', link: 'https://github.com/xiaoman1221' },
       { icon: 'wordpress', link: 'https://www.manjiuqi.com/' }
