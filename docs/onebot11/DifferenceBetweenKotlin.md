@@ -57,16 +57,16 @@ public class Main {
 }
 ```
 
-> 对于有返回值的函数仅会创建JvmBlocking结尾的普通函数, 如果返回值则会同时创建`JvmAsync`和`JvmBlocking`两个函数
+> 对于有返回值的函数仅会创建JvmBlocking结尾的普通函数, 如果有返回值则会同时创建`JvmAsync`和`JvmBlocking`两个函数
 
 # 监听事件
 
-在Java中监听事件和Kotlin中一样但是有一点需要注意, 能监听的方法只有普通的方法并且方法名末尾有`Jvm`字样, 就像下面这样
+在Java中监听事件和Kotlin中一致, 你需要实现`BlockingOneBotListener`而不是`OneBotListener`
 
 ```java
-public class Test implements OneBotListener {
+public class Test implements BlockingOneBotListener {
     @Override
-    public void onGroupMessageJvm(@NotNull GroupMessage message) {
+    public void onGroupMessageBlocking(@NotNull GroupMessage message) {
         System.out.println(message);
     }
 }
