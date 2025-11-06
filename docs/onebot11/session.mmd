@@ -1,0 +1,14 @@
+flowchart TD
+
+    A[收到命令] --> B{是否使用 API 开启会话?}
+    B -- 否 --> Z[直接继续执行后续代码]
+    B -- 是 --> C[进入会话 lambda]
+
+    C --> D{用户输入?}
+    D -->|reject| E[重新执行会话 lambda<br/>重新等待用户输入]
+    E --> D
+
+    D -->|accept| F[会话结束]
+
+    F --> G[继续执行 lambda 之后的代码]
+    G --> H[流程结束]

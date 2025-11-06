@@ -52,10 +52,11 @@ export default defineConfig({
                     {text: "构造消息", link: "/docs/onebot11/构造消息"},
                     {text: "发送消息和操作API", link: "/docs/onebot11/发送消息和操作API"},
                     {text: "创建命令和创建会话", link: "/docs/onebot11/创建命令和创建会话"},
-                    {text: "权限控制", link: "/docs/onebot11/权限控制"},
                     {text: "任务调度器", link: "/docs/onebot11/任务调度器Scheduler"},
                     {text: "StreamAPI", link: "/docs/onebot11/StreamAPI"},
-                    {text: "Java用户", link: "/docs/onebot11/DifferenceBetweenKotlin"}
+                    {text: "Java用户", link: "/docs/onebot11/DifferenceBetweenKotlin"},
+                    {text: "消息的生命周期", link: "/docs/onebot11/消息的生命周期"},
+                    {text: "Hooking钩子", link: "/docs/onebot11/Hooking"}
                 ]
             }
         ]

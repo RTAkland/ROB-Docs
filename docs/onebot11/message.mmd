@@ -1,0 +1,15 @@
+flowchart TD
+
+    A[用户在QQ发送消息] --> B[OneBot11 下发消息给 ROB]
+    B --> C[ROB 反序列化消息]
+    C --> D[事件分发器 分发消息]
+    D --> E[listener 分发消息]
+    E --> F{是命令吗?}
+
+    F -->|否| G[结束生命周期]
+
+    F -->|是| H[triggerHooking]
+    H --> I{hooking 结果?}
+
+    I -->|Continued| J[执行指令]
+    I -->|Terminated| G2[终止执行命令]
