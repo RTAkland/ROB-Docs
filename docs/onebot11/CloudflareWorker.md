@@ -153,6 +153,8 @@ fun handleRequest(request: Request): Promise<Response> = GlobalScope.promise {
 你可以前往[kotlin-cloudflare-worker](https://github.com/RTAkland/kotlin-cloudflare-worker/blob/main/README-zh.md#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 来查看具体用法和具体注意事项
 
+Worker限制了CPU时间如果需要执行CPU密集型任务请考虑优化你的代码逻辑
+
 ## 创建协程作用域
 
 请使用`GlobalScope.promose {}`或`MainScope().launch {}`来创建一个协程作用域,
