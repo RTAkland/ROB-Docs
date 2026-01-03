@@ -20,7 +20,7 @@ features:
   - title: 轻量级
     details: 一个空白的机器人APP大小在5mb~6mb左右(Linux除外, 在linux平台下编译出的kexe大小为15mb左右)
   - title: 多平台！
-    details: 除了支持Jvm平台之外还支持MacOSArm64、linuxX64(armX64)、mingwX64(Windows)、MacOSX64
+    details: 除了支持Jvm平台之外还支持MacOSArm64、linuxX64(armX64)、mingwX64(Windows)、MacOSX64, 甚至是Cloudflare Worker(alpha)
   - title: Java友好
     details: 框架支持使用Java进行调用, 但是还是会有一些差异, 具体的差异请到不同的平台的文档中查看
 ---

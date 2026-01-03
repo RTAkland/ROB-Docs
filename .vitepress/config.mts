@@ -46,6 +46,7 @@ export default defineConfig({
                     {text: "快速开始", link: "/docs/onebot11/Home"},
                     {text: "基本概念", link: "/docs/onebot11/基本概念"},
                     {text: "创建Bot实例", link: "/docs/onebot11/创建Bot实例"},
+                    {text: "在Cloudflare worker部署Bot", link: "/docs/onebot11/CloudflareWorker"},
                     {text: "管理Bot实例", link: "/docs/onebot11/管理Bot实例"},
                     {text: "监听事件", link: "/docs/onebot11/监听事件"},
                     {text: "处理消息", link: "/docs/onebot11/处理消息"},
