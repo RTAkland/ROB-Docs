@@ -7,14 +7,12 @@
 
 ```kotlin
 plugins {
-    kotlin("multiplatform")
+    kotlin("multiplatform") version "2.2.21"
 }
 
 repositories {
     mavenCentral()
-    // 请添加releases和snapshots两个仓库, snapshots仓库用于alpha版本的rob下载
     maven("https://repo.maven.rtast.cn/releases")
-    maven("https://repo.maven.rtast.cn/snapshots")
 }
 
 kotlin {
@@ -26,9 +24,7 @@ kotlin {
 
     sourceSets {
         jsMain.dependencies {
-            // 最新版本请前往仓库版本列表查看
-            // https://next.pkg.rtast.cn/#/snapshots/cn/rtast/rob/ronebot-onebot-v11
-            implementation("cn.rtast.rob:ronebot-onebot-v11:3.3.0-alpha1")
+            implementation("cn.rtast.rob:ronebot-onebot-v11:3.3.2")
         }
     }
 }
