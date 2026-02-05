@@ -3,9 +3,9 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
     lastUpdated: true,
-    title: "ROneBot 开发文档!",
+    title: "ROneBot 使用文档!",
     themeConfig: {
-        siteTitle: "ROB开发文档",
+        siteTitle: "ROB 使用文档",
         footer: {
             message: "以Apache-2.0开源协议开源",
             copyright: "Copyright © 2024-present"
@@ -55,7 +55,6 @@ export default defineConfig({
                     {text: "创建命令和创建会话", link: "/docs/onebot11/创建命令和创建会话"},
                     {text: "任务调度器", link: "/docs/onebot11/任务调度器Scheduler"},
                     {text: "StreamAPI", link: "/docs/onebot11/StreamAPI"},
-                    {text: "Java用户", link: "/docs/onebot11/DifferenceBetweenKotlin"},
                     {text: "消息的生命周期", link: "/docs/onebot11/消息的生命周期"},
                     {text: "Hooking钩子", link: "/docs/onebot11/Hooking"}
                 ]

@@ -3,34 +3,7 @@
 
 # 开始前的准备
 
-如果需要尝试此版本你需要添加snapshots仓库, 并添加Kotlin/js的target
-
-```kotlin
-plugins {
-    kotlin("multiplatform") version "2.2.21"
-}
-
-repositories {
-    mavenCentral()
-    maven("https://repo.maven.rtast.cn/releases")
-}
-
-kotlin {
-    js(IR) {
-        nodejs {
-            binaries.executable()
-        }
-    }
-
-    sourceSets {
-        jsMain.dependencies {
-            implementation("cn.rtast.rob:ronebot-onebot-v11:3.3.2")
-        }
-    }
-}
-```
-
-你还需要安装wrangler来在本地运行你的worker程序
+你需要安装wrangler来在本地运行你的worker程序
 
 # 开始开发
 

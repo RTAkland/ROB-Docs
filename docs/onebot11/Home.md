@@ -34,8 +34,8 @@ repositories {
 sourceSets {
     commonMain {
         dependencies {
-           // 这里的版本替换成最新版本
-           implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
+            // 这里的版本替换成最新版本
+            implementation("cn.rtast.rob:ronebot-onebot-v11:${version}")
         }
     }
 }
@@ -82,12 +82,8 @@ suspend fun main() {
 > 注意: 在native平台上是没有办法将main函数作为挂起函数, 所以你需要手动创建一个协程作用域来创建客户端和服务端
 > 例如使用`GlobalScope.launch {}`函数来创建一个协程作用域
 
-# Java使用者
-
-见 [Kotlin和Java的差异](/docs/onebot11/DifferenceBetweenKotlin)
-
 # 加入交流群
 
-[点击这里加群](https://qm.qq.com/q/KrmU7AjzuC)
+点击[这里](https://qm.qq.com/q/6QZTrWTIbK)加入群聊
 
-<img src="https://github.com/user-attachments/assets/eabd622e-f38d-4541-9e27-7d9623a97805" width="200">
+> 这个群聊就是一个纯粹的交流群可以在群内询问任何关于我开发的项目或者进行闲聊，群内没有任何商业行为也不允许任何类似的行为。
