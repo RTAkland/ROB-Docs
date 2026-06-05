@@ -10,9 +10,6 @@ hero:
       text: OneBot11
       link: docs/onebot11/Home
     - theme: brand
-      text: Milky
-      link: docs/milky/Home
-    - theme: alt
       text: 杂项
       link: docs/misc/misc
 
