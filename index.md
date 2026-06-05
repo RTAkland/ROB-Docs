@@ -19,7 +19,7 @@ features:
   - title: 多平台！
     details: 除了支持Jvm平台之外还支持MacOSArm64、linuxX64(armX64)、mingwX64(Windows)、MacOSX64, 甚至是Cloudflare Worker
   - title: Java不友好
-    details: 4.0版本前的rob支持java使用, 在此之后的版本不支持Java使用
+    details: 3.0版本前的rob支持Java使用, 在此之后的版本不支持Java使用
 ---
 
 <script setup>
